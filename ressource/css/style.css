@@ -31,12 +31,13 @@ h1{
     font-size: 80px;
     color: rgb(170, 12, 12);
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 h1 span:after{
     display : block;
     height: 2px;
-    background-color : rgb(170, 12, 12)
+    background-color : rgb(170, 12, 12);
     width: 1000px;
     content: " ";
     margin: 0 auto;
@@ -49,9 +50,18 @@ h2{
     text-align: center;
     margin-top: 60px;
 }
+h3{
+    font-family: 'Lobster', cursive;
+    color: rgb(170, 12, 12);
+    text-align: center;
+}
 
 p{
-    color: #fff;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.gif-title{
+    margin-left: 700px;
 }
 
 
@@ -71,9 +81,7 @@ header{
 .presentation{
     margin-top: 50px;
 }
-.perenoel{
-    margin-left: 1200px;
-}
+
 
 /*PRESENTATION
 =======================================================*/
@@ -84,6 +92,7 @@ header{
 	transform: rotate(10deg) scale(1.25);
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
+    margin-top: 80px;
 }
 .image input:hover{
     -webkit-transform: rotate(0) scale(1);
@@ -91,7 +100,7 @@ header{
 }
 .btn{
     display: block;
-    margin-top: 100px;
+    margin-top: 180px;
     color: rgb(170, 12, 12);
     font-family: 'Lobster', cursive;
     font-size: 60px;
@@ -110,11 +119,10 @@ header{
     padding: 10px;
     border-radius: 10px;
     border: 1px solid rgb(170, 12, 12);
-    transition: 1s;
 }
 .btn-admin:hover{
     color: rgb(170, 12, 12);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(218, 151, 151);
 }
 table{
     margin-left: 120px;
@@ -133,6 +141,10 @@ td{
 }
 i{
     padding-left: 10px;
+    color: black;
+}
+.fa-plus{
+    color: #fff;
 }
 /*MODAL==========================*/
 .btn-primary{
@@ -153,7 +165,40 @@ i{
     background-color: #fff;
     border: 1px solid black;
 }
-
+/*HISTOIRE ET CONTES DE NOËL========================================================================*/
+.image-story input{
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+}
+.image-story :hover{
+    opacity: 0.4;
+    transition: 1s;
+}
+.story{
+    margin-top: 100px;
+}
+.parallax{
+    background-image: url(/ressource/image/background-3017167__340.webp);
+    height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fond{
+    background-image: url(/ressource/image/background-3017167__340.webp);
+}
+/*BOUTIQUE===========================================*/
+.image-size{
+    width: 300px;
+    height: 150px;
+    margin-top: 130px;
+}
+.boutique{
+    text-align: center;
+    margin-top: 50px;
+}
 
 
 
