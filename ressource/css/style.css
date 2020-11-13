@@ -87,6 +87,7 @@ header{
 =======================================================*/
 
 .image input{
+    display: block;
     width: 400px;
     -webkit-transform: rotate(10deg) scale(1.25);
 	transform: rotate(10deg) scale(1.25);
@@ -194,12 +195,77 @@ i{
     width: 300px;
     height: 150px;
     margin-top: 130px;
+    border-radius: 10px;
 }
 .boutique{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
+}
+.btn-buy{
+    margin: 180px 0 0 180px;
+    width: 160px;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(170, 12, 12);
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(170, 12, 12);
+}
+.btn-buy:hover{
+    color: rgb(170, 12, 12);
+    background-color: rgb(218, 151, 151);
+    text-decoration: none;
+}
+.fa-shopping-cart{
+    color: #fff;
+    margin-right: 5px;
+}
+.gif-size{
+    width: 400px;
 }
 
+/*PANIER========================================*/
+.panier{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+
+}
+.panier img{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+.panier p{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.btn-check{
+    margin: 120px 0 0 900px;
+    width: 160px;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(170, 12, 12);
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(170, 12, 12);
+}
+.btn-check:hover{
+    color: rgb(170, 12, 12);
+    background-color: rgb(218, 151, 151);
+    text-decoration: none;
+}
+
+/* @media==================================*/
+
+@media (max-width: 770px){
+    .image input{
+        width: 200px;
+    }
+    .btn{
+        font-size: 30px;
+    }
+}
 
 
 
