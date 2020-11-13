@@ -49,6 +49,7 @@ h2{
     color: rgb(170, 12, 12);
     text-align: center;
     margin-top: 60px;
+    font-size: 60px;
 }
 h3{
     font-family: 'Lobster', cursive;
@@ -179,17 +180,11 @@ i{
 .story{
     margin-top: 100px;
 }
-.parallax{
-    background-image: url(/ressource/image/background-3017167__340.webp);
-    height: 100px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .fond{
     background-image: url(/ressource/image/background-3017167__340.webp);
 }
+
 /*BOUTIQUE===========================================*/
 .image-size{
     width: 300px;
