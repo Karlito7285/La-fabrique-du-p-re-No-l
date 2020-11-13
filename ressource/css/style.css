@@ -148,6 +148,12 @@ i{
 .fa-plus{
     color: #fff;
 }
+.pagination{
+    margin: 20px 0 0 180px;
+    text-decoration: none;
+    color: black;
+
+}
 /*MODAL==========================*/
 .btn-primary{
     color: black;
